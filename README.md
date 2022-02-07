@@ -4,7 +4,7 @@
 Alphabet Soup's top Analyst, Beks; is heading up up this Charity Analysis.  Beks is responsible for analysing the data and vetting potential recipients of foundation dollars to ensure effective use of said dollars.  Beks has decided that the best way to do so is with a neural network program and has asked me to help her build one.  Don't "mind" if I do! 
 
 ## Deliverable One
-**The ~EIN~ and ~NAME~ columns have been dropped.*
+**The EIN and NAME columns have been dropped.**
 
 ![EIN](images/EIN.PNG)    
 
@@ -24,12 +24,12 @@ Alphabet Soup's top Analyst, Beks; is heading up up this Charity Analysis.  Beks
 
 ![training](images/training.PNG)
  
-**The numerical values have been standardized using the ~StandardScaler()~ module.**
+**The numerical values have been standardized using the StandardScaler() module.**
 
 ![StandardScaler](images/StandardScaler.PNG)  
 
 ## Deliverable Two
-####The neural network model using Tensorflow Keras contains working code that performs the following steps:
+### The neural network model using Tensorflow Keras contains working code that performs the following steps:
 
 **The number of layers, the number of neurons per layer, and activation function are defined. An output layer with an activation function is created. And there is an output for the structure of the model.**
 
@@ -49,7 +49,7 @@ Alphabet Soup's top Analyst, Beks; is heading up up this Charity Analysis.  Beks
 
 
 ## Deliverable Three
-####The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
+### The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
   - Noisy variables are removed from features.
   - Additional neurons are added to hidden layers.
   - Additional hidden layers are added.
